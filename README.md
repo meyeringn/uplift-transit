@@ -131,7 +131,7 @@ UpLift is designed to work for any transit system on earth, through four mechani
 
 ## Current Status
 
-> **Design memo — seeking development and transit agency partners.**
+> **Phase 2 - EDA in progress.** Design memo complete. Exploratory data analysis notebook now live. Seeking transit agency and development partners.
 
 UpLift was developed as a capstone project through the [Equitech Futures Civic Tech Institute (CTI) 2026](https://www.equitechfutures.com/) cohort. The model architecture, feature schema, data strategy, and equity framework are fully designed. Implementation is the next step.
 
@@ -140,6 +140,7 @@ UpLift was developed as a capstone project through the [Equitech Futures Civic T
 - Transit agencies or civic tech collaborators interested in a pilot
 - Data engineers or ML practitioners interested in building this out
 - Fellowship or funding opportunities to support development
+- See 'notebooks/01_eda_transit_outages.ipynb' for Phase 2 data exploration
 
 -----
 
