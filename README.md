@@ -43,7 +43,8 @@ A[MTA Outage Data] --> C[XGBoost Model]
 B[NOAA Weather] --> C
 C --> D[Risk Score per Unit]
 D --> E[Ranked Maintenance List]
-D --> F[Rider Alert System]```
+D --> F[Rider Alert System]
+```
 
 ## Model Design
 
