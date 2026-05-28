@@ -1,0 +1,38 @@
+{
+"nbformat": 4,
+"nbformat_minor": 5,
+"metadata": {
+"kernelspec": {
+"display_name": "Python 3",
+"language": "python",
+"name": "python3"
+},
+"language_info": {
+"name": "python",
+"version": "3.11.0"
+}
+},
+"cells": [
+{
+"cell_type": "markdown",
+"metadata": {},
+"source": [
+"# UpLift — Phase 2 Data Exploration\n",
+"**Dataset:** MTA NYC Subway Elevator & Escalator Availability (2015–present)\n",
+"**Goal:** Understand the structure of the outage data before modeling."
+]
+},
+{
+"cell_type": "code",
+"metadata": {},
+"source": [
+"import pandas as pd\n",
+"import matplotlib.pyplot as plt\n",
+"\n",
+"# MTA elevator outage data — publicly available at data.ny.gov\n",
+"# Full URL: https://data.ny.gov/Transportation/MTA-Subway-Elevator-and-Escalator-Availability-Beg/rc78-7x78\n",
+"print('Libraries loaded. Ready to pull MTA data.')"
+]
+}
+]
+}
