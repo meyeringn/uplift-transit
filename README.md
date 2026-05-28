@@ -36,6 +36,7 @@ Think of it like a **credit score for mechanical equipment**. A credit score syn
 The output is one probability score per unit (0.00–1.00). The maintenance team receives a ranked list of at-risk equipment and uses it to schedule proactive service calls. Riders can optionally receive alerts through existing transit apps.
 
 -----
+
 ```mermaid
 flowchart LR
 A[MTA Outage Data] --> C[XGBoost Model]
@@ -43,7 +44,6 @@ B[NOAA Weather] --> C
 C --> D[Risk Score per Unit]
 D --> E[Ranked Maintenance List]
 D --> F[Rider Alert System]
-
 
 ## Model Design
 
