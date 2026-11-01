@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "UpLift: Predicting transit station equipment failure before it breaks"
+abstract: "Predicts transit elevator and escalator failures 30 days ahead, so Disabled riders aren’t stranded. XGBoost + SHAP, built on synthetic data, pilot-ready for real agency records."
+authors:
+  - family-names: Meyering
+    given-names: Nico
+type: software
+license: MIT
+repository-code: "https://github.com/meyeringn/uplift-transit"
+date-released: 2026-05-31
+keywords:
+  - transit equity
+  - transit justice
+  - public transit
+  - civic technology
+  - civic infrastructure
+  - machine learning
